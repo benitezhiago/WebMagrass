@@ -3,6 +3,14 @@
   padding: 0;
   margin: 0;
 }
+::-webkit-scrollbar {
+  background: linear-gradient(#006663, #002b2b);
+  width: 12px;
+}
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(transparent, #00d4d4);
+  border-radius: 6px;
+}
 .direitosre {
   display: flex;
   align-items: center;
