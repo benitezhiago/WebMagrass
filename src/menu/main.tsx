@@ -93,7 +93,7 @@ export function LLp() {
                 />
               </div>
               <div className="button1" data-aos="zoom-in" data-aos-delay="350">
-                <a href="">
+                <a href="/">
                   <h1>Enviar</h1>
                 </a>
               </div>
