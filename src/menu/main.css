@@ -253,13 +253,13 @@ select:focus {
 .alto {
   z-index: 5;
 
-  opacity: 60%;
+  
   transition: filter 0.3s;
   transition: opacity 0.3s;
   cursor: pointer;
 }
 .alto:hover {
-  opacity: 100%;
+  
   filter: brightness(1.1);
 }
 .pulsar {
@@ -279,14 +279,14 @@ select:focus {
 .baixo {
   z-index: 5;
 
-  opacity: 60%;
+
   cursor: pointer;
   transform: translateY(3rem);
   transition: filter 0.3s;
   transition: opacity 0.3s;
 }
 .baixo:hover {
-  opacity: 100%;
+
   filter: brightness(1.1);
 }
 
