@@ -251,6 +251,8 @@ select:focus {
   gap: 6rem;
 }
 .alto {
+  z-index: 5;
+
   opacity: 60%;
   transition: filter 0.3s;
   transition: opacity 0.3s;
@@ -275,6 +277,8 @@ select:focus {
   }
 }
 .baixo {
+  z-index: 5;
+
   opacity: 60%;
   cursor: pointer;
   transform: translateY(3rem);
