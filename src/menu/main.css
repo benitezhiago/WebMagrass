@@ -3,9 +3,17 @@
   padding: 0;
   margin: 0;
 }
+html {
+  scroll-behavior: smooth;
+
+}
 ::-webkit-scrollbar {
-  background: linear-gradient(#006663, #002b2b);
-  width: 12px;
+  background: linear-gradient(
+    0deg,
+    rgba(0, 43, 43, 1) 16%,
+    rgba(0, 69, 69, 1) 100%
+  );
+  width: 8px;
 }
 ::-webkit-scrollbar-thumb {
   background: linear-gradient(transparent, #00d4d4);

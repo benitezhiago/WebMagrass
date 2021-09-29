@@ -20,12 +20,12 @@ import "./main.css";
 
 export function LLp() {
   return (
-    <div className="app">
+    <div className="app" id="home">
       <div className="fundo">
         <div className="div1"></div>
       </div>
 
-      <div className="txtform" id="home">
+      <div className="txtform" >
         <div className="div2 " data-aos="fade-left">
           <h1>
             Na Magrass <br /> o <span>seu sonho</span> de magrecer <br />
